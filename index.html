@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Meme Museum</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Meme Museum</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#create">Create</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to the Meme Museum!</h2>
+      <p>Explore the origins and cultural significance of popular internet memes.</p>
+    </section>
+
+    <section id="explore">
+      <h2>Explore Memes</h2>
+      <div id="memeGallery">
+        <!-- Meme gallery content dynamically populated using JavaScript -->
+      </div>
+    </section>
+
+    <section id="create">
+      <h2>Create Memes</h2>
+      <form id="memeForm">
+        <label for="memeImage">Meme Image URL:</label>
+        <input type="text" id="memeImage" name="memeImage" required>
+
+        <label for="memeCaption">Meme Caption:</label>
+        <input type="text" id="memeCaption" name="memeCaption" required>
+
+        <button type="submit">Create Meme</button>
+      </form>
+    </section>
+
+    <section id="about">
+      <h2>About the Meme Museum</h2>
+      <p>The Meme Museum is a digital space dedicated to preserving and exploring the cultural impact of memes.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
